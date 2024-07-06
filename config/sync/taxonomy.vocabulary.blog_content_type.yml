@@ -4,5 +4,6 @@ status: true
 dependencies: {  }
 name: 'Blog Content Type'
 vid: blog_content_type
-description: ''
+description: null
 weight: 0
+new_revision: false

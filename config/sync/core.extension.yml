@@ -24,6 +24,7 @@ module:
   help: 0
   history: 0
   image: 0
+  layout_discovery: 0
   link: 0
   media: 0
   media_library: 0
@@ -58,4 +59,7 @@ theme:
   claro: 0
   stable9: 0
   tara: 0
+  stable: 0
+  classy: 0
+  catalog_lite: 0
 profile: standard
