@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: pl
+uuid: bf3ab82e-1f36-4eba-8f02-6e5d60d6a1bc
+name: 'Teraz Tata'
+mail: filipiuk.bartek@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: pl
+mail_notification: null

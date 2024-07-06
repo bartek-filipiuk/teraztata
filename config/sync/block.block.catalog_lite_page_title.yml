@@ -1,0 +1,20 @@
+uuid: 21caeb6b-f243-4327-b39d-43d5d80e06b2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - catalog_lite
+_core:
+  default_config_hash: jYOJOBjfiad2fNf24xxxHdpqFAPK2mQJng6sGLpUVmk
+id: catalog_lite_page_title
+theme: catalog_lite
+region: banner
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

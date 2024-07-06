@@ -1,0 +1,10 @@
+uuid: 89b1864f-e2a8-4091-a43b-86a23c177fd1
+langcode: pl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: nzL5d024NjXIX_8TlT6uFAu973lmfkmHklJC-2i9rAE
+id: medium
+label: 'Domyślna data średnia'
+locked: false
+pattern: 'D, m/d/Y - H:i'

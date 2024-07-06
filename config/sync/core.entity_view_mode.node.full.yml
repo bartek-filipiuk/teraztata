@@ -1,0 +1,13 @@
+uuid: 28dbccac-8ac9-4a76-ae73-b5d8a82b9530
+langcode: pl
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: QJ2aZ1xfVf59aq6Pz5X7fyUOa2HxuCoTwQ_RQjoulAU
+id: node.full
+label: 'Pełna wersja wpisu'
+description: ''
+targetEntityType: node
+cache: true
