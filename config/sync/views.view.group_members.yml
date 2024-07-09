@@ -8,7 +8,7 @@ dependencies:
 _core:
   default_config_hash: JObBEUBjxiblsPypD-apV4KDHMD6JetwJds-xV_IBs4
 id: group_members
-label: 'Group members'
+label: 'Członkowie grupy'
 module: group
 description: ''
 tag: ''
@@ -17,11 +17,11 @@ base_field: id
 display:
   default:
     id: default
-    display_title: Master
+    display_title: Główny
     display_plugin: default
     position: 0
     display_options:
-      title: Members
+      title: Członkowie
       fields:
         name:
           id: name
@@ -237,7 +237,7 @@ display:
           entity_type: group_relationship
           entity_field: created
           plugin_id: field
-          label: Joined
+          label: Dołączył
           exclude: false
           alter:
             alter_text: false
@@ -735,7 +735,7 @@ display:
       path: group/%group/members
       menu:
         type: tab
-        title: Members
+        title: Członkowie
         description: ''
         weight: 20
         enabled: true

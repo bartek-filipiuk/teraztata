@@ -266,7 +266,7 @@ handlers:
   email_notification:
     id: email
     handler_id: email_notification
-    label: 'Email notification'
+    label: 'Powiadomienia e-mail'
     notes: ''
     status: true
     conditions: {  }

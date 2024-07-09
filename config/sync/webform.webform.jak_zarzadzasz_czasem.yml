@@ -29,6 +29,66 @@ elements: |-
       'Z umiarkowanymi trudnościami': 'Z umiarkowanymi trudnościami'
       'Z dużymi trudnościami': 'Z dużymi trudnościami'
       'Bardzo trudno mi sobie poradzić': 'Bardzo trudno mi sobie poradzić'
+  switchtasking:
+    '#type': webform_radios_other
+    '#title': 'Jak często zmieniasz obiekt skupienia podczas wykonywania zadań?'
+    '#description': '<p>Czy czynniki zewnętrzne łatwo odciągają cię od zadania, np telefon, tv, inne mniej ważne zadania.</p>'
+    '#options':
+      'Bardzo często': 'Bardzo często'
+      Często: Często
+      Rzadko: Rzadko
+      'Bardzo rzadko': 'Bardzo rzadko'
+  work_environment:
+    '#type': webform_radios_other
+    '#title': 'Czy masz przygotowane środowisko do wykonywania tego, co chcesz robić?'
+    '#description': '<p>Czy łatwo i szybko możesz zacząć pracę nad swoimi zadaniami.</p>'
+    '#options':
+      'Tak, zawsze': 'Tak, zawsze'
+      'Często, ale nie zawsze': 'Często, ale nie zawsze'
+      Rzadko: Rzadko
+      Nigdy: Nigdy
+  relax_time:
+    '#type': webform_radios_other
+    '#title': 'Jak często masz poczucie, że brakuje Ci czasu na relaks i odprężenie?'
+    '#options':
+      Codziennie: Codziennie
+      'Kilka razy w tygodniu': 'Kilka razy w tygodniu'
+      'Raz w tygodniu': 'Raz w tygodniu'
+      'Rzadziej niż raz w tygodniu': 'Rzadziej niż raz w tygodniu'
+      Nigdy: Nigdy
+  work_breaks:
+    '#type': webform_radios_other
+    '#title': 'Czy masz regularne przerwy w ciągu dnia pracy?'
+    '#options':
+      'Tak, regularnie': 'Tak, regularnie'
+      Czasami: Czasami
+      Rzadko: Rzadko
+      Nigdy: Nigdy
+  time_for_passion:
+    '#type': webform_radios_other
+    '#title': 'Jak często masz czas na realizację swoich pasji i zainteresowań?'
+    '#options':
+      Codziennie: Codziennie
+      'Kilka razy w tygodniu': 'Kilka razy w tygodniu'
+      'Raz w tygodniu': 'Raz w tygodniu'
+      'Rzadziej niż raz w tygodniu': 'Rzadziej niż raz w tygodniu'
+      Nigdy: Nigdy
+  family_time:
+    '#type': webform_radios_other
+    '#title': 'Jak często masz czas na wspólne posiłki z rodziną?'
+    '#options':
+      Codziennie: Codziennie
+      'Kilka razy w tygodniu': 'Kilka razy w tygodniu'
+      'Raz w tygodniu': 'Raz w tygodniu'
+      'Rzadziej niż raz w tygodniu': 'Rzadziej niż raz w tygodniu'
+      Nigdy: Nigdy
+  balans:
+    '#type': webform_radios_other
+    '#title': 'Czy uważasz, że masz zachowany balans w praca-rodzina-zainteresowania?'
+    '#options':
+      Tak: Tak
+      Nie: Nie
+      'Pewne aspekty wymagają poprawy': 'Pewne aspekty wymagają poprawy'
 css: ''
 javascript: ''
 settings:
