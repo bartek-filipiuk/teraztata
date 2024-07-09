@@ -1,0 +1,22 @@
+uuid: f90c51a9-0f8f-437e-a746-7a1788a20fc5
+langcode: pl
+status: true
+dependencies:
+  module:
+    - node
+id: artykuly_i_dziennik
+label: 'Artykuły i dziennik'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  456149e9-c2b9-4573-92f1-9e0d9d23087f:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 456149e9-c2b9-4573-92f1-9e0d9d23087f
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+selection_logic: and
+weight: -5
+relationships: {  }
