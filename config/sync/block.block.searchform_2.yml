@@ -1,5 +1,5 @@
 uuid: 536bcfdf-2db1-4d60-9792-0293e2fe517e
-langcode: en
+langcode: pl
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: search_form_block
 settings:
   id: search_form_block
-  label: 'Search form'
+  label: 'Formularz wyszukiwania'
   label_display: '0'
   provider: search
   page_id: ''

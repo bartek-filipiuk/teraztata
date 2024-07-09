@@ -16,10 +16,14 @@ module:
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  entity: 0
   field: 0
   field_ui: 0
   file: 0
   filter: 0
+  flexible_permissions: 0
+  gnode: 0
+  group: 0
   help: 0
   history: 0
   image: 0
@@ -43,10 +47,25 @@ module:
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   update: 0
   user: 0
+  variationcache: 0
   views_ui: 0
+  webform: 0
+  webform_access: 0
+  webform_attachment: 0
+  webform_example_composite: 0
+  webform_example_element: 0
+  webform_example_element_properties: 0
+  webform_examples: 0
+  webform_examples_accessibility: 0
+  webform_node: 0
+  webform_options_limit: 0
+  webform_schema: 0
+  webform_shortcuts: 0
+  webform_ui: 0
   views: 10
   standard: 1000
 theme:

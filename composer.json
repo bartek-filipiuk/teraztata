@@ -22,9 +22,11 @@
         "drupal/core-composer-scaffold": "^10.1",
         "drupal/core-project-message": "^10.1",
         "drupal/core-recommended": "^10.1",
+        "drupal/group": "^3.2",
         "drupal/metatag": "^2.0",
         "drupal/pathauto": "^1.11",
         "drupal/tara": "^10.1",
+        "drupal/webform": "^6.2",
         "drush/drush": "^12.2"
     },
     "conflict": {
