@@ -1,0 +1,9 @@
+uuid: 234b7aab-d2e4-4784-8471-f8c27c3bcdba
+langcode: pl
+status: true
+dependencies: {  }
+name: 'Kategoria Bloga'
+vid: kategoria_bloga
+description: null
+weight: 0
+new_revision: false

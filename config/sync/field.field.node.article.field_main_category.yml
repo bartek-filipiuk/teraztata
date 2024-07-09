@@ -1,0 +1,29 @@
+uuid: 1802a74b-7a37-4ad1-83cb-e140efeba81f
+langcode: pl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_main_category
+    - node.type.article
+    - taxonomy.vocabulary.kategoria_bloga
+id: node.article.field_main_category
+field_name: field_main_category
+entity_type: node
+bundle: article
+label: Kategoria
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      kategoria_bloga: kategoria_bloga
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

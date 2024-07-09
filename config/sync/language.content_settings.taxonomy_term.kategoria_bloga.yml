@@ -1,0 +1,11 @@
+uuid: 73577cbe-91ba-4773-ad16-587786bd95c5
+langcode: pl
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.kategoria_bloga
+id: taxonomy_term.kategoria_bloga
+target_entity_type_id: taxonomy_term
+target_bundle: kategoria_bloga
+default_langcode: site_default
+language_alterable: false
