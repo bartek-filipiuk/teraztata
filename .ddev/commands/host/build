@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Composer install with styles.
+ddev composer install
+
+# Restore database and import files.
+ddev db-restore
+ddev files-import
+
+# Run all necessary drush commands.
+ddev drush updb -y
+ddev drush cr
+ddev drush cim -y
+ddev drush cr
+ddev drush uli

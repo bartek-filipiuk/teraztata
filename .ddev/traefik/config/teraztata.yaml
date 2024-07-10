@@ -4,6 +4,17 @@ http:
   routers:
     
     
+    teraztata-phpmyadmin-80-http:
+      
+      rule: HostRegexp(`teraztata.ddev.site`)
+      
+      service: "teraztata-phpmyadmin-80-http"
+      tls: false
+      entrypoints:
+        - http-8036
+    
+    
+    
     teraztata-web-80-http:
       
       rule: HostRegexp(`teraztata.ddev.site`)
@@ -26,15 +37,17 @@ http:
     
     
     
-    teraztata-phpmyadmin-80-http:
+    
+    teraztata-phpmyadmin-80-https:
       
       rule: HostRegexp(`teraztata.ddev.site`)
       
-      service: "teraztata-phpmyadmin-80-http"
-      tls: false
+      service: "teraztata-phpmyadmin-80-https"
+      
+      tls: true
+      
       entrypoints:
-        - http-8036
-    
+        - http-8037
     
     
     
@@ -63,21 +76,19 @@ http:
         - http-8026
     
     
-    
-    teraztata-phpmyadmin-80-https:
-      
-      rule: HostRegexp(`teraztata.ddev.site`)
-      
-      service: "teraztata-phpmyadmin-80-https"
-      
-      tls: true
-      
-      entrypoints:
-        - http-8037
-    
-    
 
   services:
+    
+    teraztata-phpmyadmin-80-http:
+      loadbalancer:
+        servers:
+          - url: http://ddev-teraztata-phpmyadmin:80
+    
+    teraztata-phpmyadmin-80-https:
+    
+      loadbalancer:
+        servers:
+          - url: http://ddev-teraztata-phpmyadmin:80
     
     teraztata-web-80-http:
       loadbalancer:
@@ -100,17 +111,6 @@ http:
       loadbalancer:
         servers:
           - url: http://ddev-teraztata-web:8025
-    
-    teraztata-phpmyadmin-80-http:
-      loadbalancer:
-        servers:
-          - url: http://ddev-teraztata-phpmyadmin:80
-    
-    teraztata-phpmyadmin-80-https:
-    
-      loadbalancer:
-        servers:
-          - url: http://ddev-teraztata-phpmyadmin:80
     
 
 
